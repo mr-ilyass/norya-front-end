@@ -1,0 +1,32 @@
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.image-size{
+  height: 45%;
+  width: 33%;
+}
+
+.marquee {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee span {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-80vw);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
