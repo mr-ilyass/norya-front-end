@@ -1,0 +1,24 @@
+.neonText {
+  color: #fff;
+  text-shadow:
+    0 0 21px #fff,
+    0 0 42px #efeded,
+    0 0 82px #dde1e0,
+    0 0 92px #ffffff,
+    0 0 102px #ffffff,
+    0 0 151px #ffffff;
+}
+
+.text-container {
+  position: relative;
+  z-index: 1;
+}
+
+.background-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+
