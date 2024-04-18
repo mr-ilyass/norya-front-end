@@ -1,0 +1,28 @@
+.round-image {
+  border-bottom-right-radius: 7rem;
+}
+
+@media (max-width: 767px) {
+  /* Small screens */
+  .round-image {
+    border-bottom-right-radius: 5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Medium screens */
+  .round-image {
+    border-bottom-right-radius: 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Large screens */
+  .round-image {
+    border-bottom-right-radius: 7rem;
+  }
+}
+
+.bg-card-container{
+  background-color : #151414;
+}

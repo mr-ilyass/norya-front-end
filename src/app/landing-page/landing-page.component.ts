@@ -2,6 +2,9 @@ import {Component, OnInit} from '@angular/core';
 import {HeroComponent} from "./hero/hero.component";
 import {SolutionSectionComponent} from "./solution-section/solution-section.component";
 import {ExpertiseSectionComponent} from "./expertise-section/expertise-section.component";
+import {HistoreSectionComponent} from "./histore-section/histore-section.component";
+import {BlogSectionComponent} from "./blog-section/blog-section.component";
+import {ChiffresSectionComponent} from "./chiffres-section/chiffres-section.component";
 
 @Component({
   selector: 'app-landing-page',
@@ -9,7 +12,10 @@ import {ExpertiseSectionComponent} from "./expertise-section/expertise-section.c
   imports: [
     HeroComponent,
     SolutionSectionComponent,
-    ExpertiseSectionComponent
+    ExpertiseSectionComponent,
+    HistoreSectionComponent,
+    BlogSectionComponent,
+    ChiffresSectionComponent
   ],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css'

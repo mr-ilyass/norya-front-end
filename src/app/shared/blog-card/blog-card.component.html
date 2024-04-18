@@ -1,0 +1,17 @@
+<div class="max-w-sm  rounded overflow-hidden shadow-lg bg-card-container text-white">
+  <div class="m-4">
+    <img class="w-full round-image" [src]="image" alt="Sunset in the mountains">
+    <div class="px-6 py-4">
+      <div class="font-bold text-base mb-2">{{title}}</div>
+      <p class="text-white text-sm">
+        {{ description }}
+      </p>
+      <div class="flex items-center pt-2">
+        <img class="w-10 h-10 rounded-full mr-4" [src]="imageUser" alt="Avatar of Jonathan Reinink">
+        <div class="text-sm">
+          <p class="text-white leading-none">{{user}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
